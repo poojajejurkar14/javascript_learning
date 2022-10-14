@@ -18,11 +18,14 @@ var fname = "virat";
 var sname = "kolhi";
 var result = fname.concat(" ",sname);
 console.log(result);
+
 console.log("*********************** Replace Method ***********************");
 var great="good morning bro and sis";
 var replaceDemo =great.replace("morning","evening");
-console.log("*********************** toUpperCase Method ***********************");
 console.log(replaceDemo);
+console.log("*********************** toLowerCase Method ***********************");
+console.log(replaceDemo.toLowerCase());
+console.log("*********************** toUpperCase Method ***********************");
 console.log(replaceDemo.toUpperCase());
 console.log("*********************** trim Method ***********************");
 var great="     good morning bro and sis   ";
