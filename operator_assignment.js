@@ -6,7 +6,6 @@ var wordLengthSquare=function(arg){
     console.log(`square of word: ${square}`);
     console.log("*******************************************");
 
-
 }
 wordLengthSquare("JavaScript");
 wordLengthSquare("Google");
