@@ -4,5 +4,5 @@ console.log(result);
 
 console.log("**************** even odd ***************");
 var my_number=10;
-var my_result=my_number%2==0 ? "Positive":"Negative";
+var my_result=my_number%2==0 ? "even":"odd";
 console.log(my_result);
