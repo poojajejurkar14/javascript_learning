@@ -49,3 +49,24 @@ for (const key in v1) {
         console.log(`${key},${element}`);
     }
 }
+
+console.log("***************** fibonacci series *********************");
+function fibonacci(mynumber) {
+    //let mynumber=8;
+if (mynumber==0) {
+    return 0;
+} 
+if (mynumber==1) {
+    return 1;
+} 
+let fstnum=0,sndnum=1;
+nextnum=fstnum+sndnum;
+for (let index = 0; index < mynumber; index++) {
+    fstnum=sndnum;
+    sndnum=nextnum;
+    nextnum=fstnum+sndnum;
+    console.log(nextnum);
+    
+}
+}
+fibonacci(5);
