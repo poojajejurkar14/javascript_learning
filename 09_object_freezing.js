@@ -24,5 +24,6 @@ let studentc=Object.assign({},student);
 studentc.name="mohit sharma";
 console.log(studentc);
 console.log(student);
+//merge to array
 let merge=Object.assign({},student,address);
 console.log(merge);
