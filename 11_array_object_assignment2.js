@@ -37,7 +37,7 @@ console.log("============= find the object: kotak_bank ===============");
 //     }
 // }
 for (const bank of array) {
-    if (bank.bank_name=="kotak_bank") {
+    if (bank.bank_name=="Kotak-Bank") {
         console.log(`${bank.bank_name},${bank.location},${bank.account_no},${bank.ifsc}`);
     }
 }

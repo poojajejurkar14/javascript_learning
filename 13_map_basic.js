@@ -1,0 +1,17 @@
+let map=new Map();
+map.set(22,"pooja");
+map.set(77,"sachine");
+map.set(33,"dravid");
+map.set(28,"pooja");
+console.log("========== adding duplicate values ============");
+map.set(22,"sakshi");
+console.log(map);
+let value=map.get(22);
+console.log(value);
+console.log("====== delete element =======");
+console.log(map.delete(33));
+console.log(map);
+console.log("======== is available=======");
+map.has(77);
+let set=map.keys();
+console.log(set);

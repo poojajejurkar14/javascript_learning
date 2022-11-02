@@ -29,7 +29,7 @@ console.log("====================");
         // add the element at strating index using : unshift()
         let arrayofnumbers=[1,3,7,8,9,3,7];
         arrayofnumbers.unshift(5,4);
-        arrayofnumbers.unshift(0);
+        console.log(arrayofnumbers.unshift(0));
         console.log(arrayofnumbers);
 
         console.log("******** remove element at the starting ***********");
@@ -41,7 +41,7 @@ console.log("====================");
 
         console.log("******** remove element in middle *********");
         let arraynumber=[1,2,3,4,5,6];
-        let slice=arraynumber.slice(2);
+        let slice=arraynumber.slice(3);
         console.log(slice);
         let silcevalue=arraynumber.slice(1,4);
         console.log(silcevalue);
@@ -53,4 +53,8 @@ console.log("====================");
         //let splicedelement=array_number.splice(2,2);    // it remove element from 2nd index to 2nd element
         let splicedelement=array_number.splice(2,0,22);    // it remove element from 2nd index to 2nd element
         console.log(splicedelement);
-        console.log(array_number);    
+        console.log(array_number); 
+        console.log("************* resize array **************");
+        console.log(array_number.length);
+        array_number.length=10;
+        console.table(array_number);

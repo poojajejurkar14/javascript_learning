@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Global variable</title>
+    </head>
+<body>
+    <h3>understanding global variable</h3>
+    <script>
+        //  block scope
+        if (true) {
+            var aaa="test";
+        }
+        console.log(aaa);   //but in block scope it is not the function means it will access outside the block
+        //  function  scope
+       function test1(){
+            var aaa="test"; //var have function scope
+        }
+        //global scope
+        var test ="test";
+        console.log(test);  
+    </script>
+</body>
+</html>
