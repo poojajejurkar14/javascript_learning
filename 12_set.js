@@ -1,7 +1,7 @@
 let setno=new Set();
 console.log(typeof setno);
 console.log("********* add element into set********");
-setno.add(3);
+setno.add(5);
 setno.add(8);
 setno.add(5);
 setno.add(2);
@@ -23,7 +23,7 @@ console.log("*********** traversing set **********");
 for (const element of setno) {
     console.log(element);
 }
-
+console.log("*********** remove duplicate element **********");
 let array=[2,3,4,3,2,5,6,7];
 let setnumber=[...new Set(array)];
 console.log(setnumber);
