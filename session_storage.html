@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Global variable</title>
+        <title>session storage</title>
     </head>
 <body>
     <h3>understanding global variable</h3>
@@ -9,7 +9,10 @@
     window.sessionStorage.setItem("pooja","pune");
     window.sessionStorage.setItem("sachine","mumbai");
     window.sessionStorage.setItem("praju","sangmner");
-    window.sessionStorage.removeItem("sachine");    
+    console.log(window.sessionStorage.getItem("pooja"));
+    console.log(window.sessionStorage.key("praju"));
+    window.sessionStorage.removeItem("sachine");  
+    window.sessionStorage.length();  
     </script>
 </body>
 </html>
