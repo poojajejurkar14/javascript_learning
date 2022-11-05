@@ -1,0 +1,12 @@
+//   most important in interview :ES6 feature iife(immegiate invoke function expression)
+(function show(){
+    console.log("hey i am IIFE");
+})();
+
+(function display(){
+    console.log("hey i am FE");
+})();
+//anonymus function
+(function (){
+    console.log("hey i am anonymus Function");
+})();
