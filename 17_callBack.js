@@ -15,6 +15,8 @@ do_assignment(copy_assignment,copy_assignment1);
 function display(){
     console.log("display function");
 }
-
-setTimeout(display,5000);
-setInterval(display,2000);
+function show(){
+    console.log("display function");
+}
+setTimeout(display,5000);// run but after this time
+setInterval(show,2000); //
