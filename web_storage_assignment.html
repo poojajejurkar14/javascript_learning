@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Assignment</title>
+</head>
+
+<body>
+    <h3>session Storage</h3>
+    <script>
+        
+        window.sessionStorage.setItem("name","pooja");
+        window.sessionStorage.setItem("age",22);
+        window.sessionStorage.setItem("city","Rahata");
+        window.sessionStorage.setItem("pincode",423107);
+        console.log("********** use getItem() ************");
+        console.log(window.sessionStorage.getItem("name"));
+        console.log(window.sessionStorage.getItem("age"));
+        console.log(window.sessionStorage.getItem("city"));
+        console.log(window.sessionStorage.getItem("pincode"));
+        console.log("************** length() **************");
+        var len=sessionStorage.length;
+        console.log(len);
+        console.log("************** clear() **************");
+        console.log(sessionStorage.clear);
+        
+
+        console.log("Local storage");
+        window.localStorage.setItem("Fullname","pooja jejurkar");
+        window.localStorage.setItem("age",21);
+        window.localStorage.setItem("state","MH");
+        window.localStorage.setItem("country","india");
+        console.log("********** use getItem() ************");
+        console.log(window.localStorage.getItem("Fullname"));
+        console.log(window.localStorage.getItem("age"));
+        console.log(window.localStorage.getItem("state"));
+        console.log(window.localStorage.getItem("country"));
+        console.log("************** length() **************");
+        var len1=localStorage.length;
+        console.log(len1);
+        console.log("************** clear() **************");
+        console.log(localStorage.clear);
+        console.log("************** array assignment ****************");
+        let arrayOfNumbers=["Kamat","Memon","Nashpati","Taimur","Menon","Kamat","Andy","Taimur"];
+        console.log("****************** remove duplicate name **********************");
+        let duplicate=[...new Set(arrayOfNumbers)];
+        console.log(duplicate);
+        console.log("****************** remove duplicate count **********************");
+
+    </script>
+</body>
+
+</html>
