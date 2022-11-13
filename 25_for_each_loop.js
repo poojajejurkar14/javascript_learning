@@ -11,8 +11,8 @@ display(10,20);
 
 //arrow function
 let array1=[10,20,30,40,50];
-array1.forEach((currentvalue)=>{
-    console.log(currentvalue);
+array1.forEach((currentvalue,index)=>{
+    console.log(currentvalue,index);
 }); //OR
 //array1.forEach(currentvalue=>console.log(currentvalue)
 //);
